@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Post.find_or_create_by(title: "NEW Post", description: "test for a dummy data")
+Post.find_or_create_by(title: "Ppost2", description: "second post to test data")
